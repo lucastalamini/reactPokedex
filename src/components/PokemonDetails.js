@@ -8,6 +8,9 @@ class PokemonDetails extends React.Component {
     images: `https://pokeres.bastionbot.org/images/pokemon/${Math.ceil(
       Math.random() * 500
     )}.png`,
+    nameFormated:
+      "You'll be shown the name and all the moves of the selected pokémon!",
+    typesText: "As well as their respectives type/types. Enjoy!",
   };
   onSearchSubmit = async (term) => {
     const response = await pokemonList.get(
