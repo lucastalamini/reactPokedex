@@ -1,0 +1,20 @@
+.img-container {
+  border: 5px solid #ff4100;
+  background-color: #ff4100;
+  border-radius: 20%;
+  position: relative;
+  left: 20px;
+  top: 5px;
+  height: 550px;
+}
+
+.img-container img {
+  position: relative;
+  left: 50px;
+  max-height: 400px;
+}
+
+.description {
+  color: #f4f4f4;
+  margin-left: 0;
+}
